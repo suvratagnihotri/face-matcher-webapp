@@ -36,5 +36,5 @@ video.addEventListener("play", async () => {
 
     // Draw bounding boxes around the detected faces
     faceapi.draw.drawDetections(canvas, resizedDetections);
-  }, 100);
+  }, 10);
 });
