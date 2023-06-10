@@ -1,6 +1,5 @@
 const video = document.getElementById("video");
 
-// Load the face detection and landmark models
 Promise.all([
   faceapi.nets.ssdMobilenetv1.loadFromUri("/models"),
   faceapi.nets.faceLandmark68Net.loadFromUri("/models"),
