@@ -1,5 +1,4 @@
 const video = document.getElementById("video");
-//starting video stream
 Promise.all([
   faceapi.nets.ssdMobilenetv1.loadFromUri("/models"),
   faceapi.nets.faceLandmark68Net.loadFromUri("/models"),
